@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>form</title>
+ </head>
+ <body>
+
+ <div style="background-color:white; color:blue">
+ <h3><u><center>student registration form</center></u></h3>
+ </font><br>
+ </div>
+
+ <style>
+ label{
+ font-family:Arial;
+ color:#0000FF;
+ font-style:italic;
+ font-weight:bold;
+ text-align:right;
+ padding-right:10px;
+ width:100px;
+ display:inline-block;
+ }
+ .login
+ {
+  background-color:#008000;
+  color:#000000;
+  padding:10px 20px;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+ }
+ .Reset
+ {
+  background-color:#FF4040;
+  color:#000000;
+  padding:10px 20px;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+ }
+ </style>
+ 
+
+  
+<fieldset style="background-color:#ADD8E6; border-color:blue; border-style:double; border-width:5px; padding:20px;">
+
+<div class="col-sm-4 col-lg-3 col-md-6">
+<label>First Name: &nbsp </label>
+<input type="text" id="firstname" size="20" maxlength="37" placeholder="Enter your First Name">
+</div><br>
+
+<div class="col-sm-4 col-lg-3 col-md-6" >
+<label>Last Name:  &nbsp</label>
+<input type="text" id="lastname" size="20" maxlength="37" placeholder="Enter your Last Name">
+</div><br>
+
+
+<div class="col-sm-4 col-lg-3 col-md-6">
+<label>Password &nbsp</label>
+<input type="text" id="password" size="20"  placeholder="Enter password">
+</div><br>
+
+<div class="col-sm-4 col-lg-3 col-md-6">
+<label>Date of Birth: &nbsp</label>
+<input type="date" id="dob" size="20"  placeholder="YYYY-MM-DD">
+</div><br>
+
+<div class="col-sm-4 col-lg-3 col-md-6">
+<label>Email:  &nbsp</label>
+<input type="text" id="gmail" size="20" maxlength="37" placeholder="Enter your Mail ID" >
+</div><br>
+
+<div class="col-sm-4 col-lg-3 col-md-6">
+<label>Mobile Number:  &nbsp</label>
+<input type="text" id="number" size="20" maxlength="37" placeholder="Mobile Number" >
+</div><br>
+
+<div class="col-sm-4 col-lg-3 col-md-6">
+<label>gender:  &nbsp</label>
+<input type="radio"  id="gender" name="gender" value="Male"=>Male
+<input type="radio"  id="gender" name="gender"value="Female">Female
+</div><br>
+
+<div class="form-container col-sm-4 col-lg-3 col-md-6">
+<label>Address:  &nbsp</label>
+<textarea wrap="address" id="address" rows=3 cols=20 placeholder="Enter your Address"></textarea>
+</div><br>
+
+<div class="form-container col-sm-4 col-lg-3 col-md-6">
+<label>City:  &nbsp</label>
+<input type="text" id="city" size="20" maxlength="37" placeholder="Enter your City">
+</div><br>
+
+<div class="form-container col-sm-4 col-lg-3 col-md-6">
+<label>pincode:  &nbsp</label>
+<input type="text"  id="pincode"size="20" maxlength="37" placeholder="Enter Pincode">
+</div><br>
+  
+<div class="form-container col-sm-4 col-lg-3 col-md-6">
+<label>State:  &nbsp</label>
+<input type="text" id="state" size="20" maxlength="37" placeholder="Enter your State">
+</div><br>
+
+<div class="form-container col-sm-4 col-lg-3 col-md-6">
+<label>Country:  &nbsp</label>
+<input type="text" id="country" size="20" maxlength="37" placeholder="Enter your Country">
+</div><br>
+ 
+<div class="form-container col-sm-4 col-lg-3 col-md-6">
+<label>Hobbies:  &nbsp</label>
+<input type="checkbox" id="hobbies" name="Hobbies" value="Cricket">Cricket
+<input type="checkbox" id="hobbies" name="Hobbies" value="Tennies">Tennies
+<input type="checkbox" id="hobbies" name="Hobbies" value="Baseball">Baseball
+<input type="checkbox" id="hobbies" name="Hobbies" value="Football">Football
+</div><br>
+
+<div class="form-container col-sm-4 col-lg-3 col-md-6">
+<label>Course Applied for:  &nbsp</label>
+<input type="radio" id="course" name="course" value="BCA">BCA
+<input type="radio" id="course" name="course" value="BSC">BSC
+<input type="radio" id="course" name="course" value="B.Com">B.Com
+<input type="radio" id="course" name="course" value="BA">BA
+</div> <br>
+<br>
+
+
+<label>Qualification</label><br><br>
+<table>
+<tr>
+<td align="center"><label>s1.No.</label></td>
+<td align="center"><label>Examination</label></td>
+<td align="center"><label>Board</label></td>
+<td align="center"><label>percentage</label></td>
+<td align="center"><label>Passing Year</label></td>
+</tr>
+
+<tr>
+<td><label>1</label></td>
+<td><label>Class X</label></td>
+<td><input type="text" id="cls10A" name="cls10A" size="40" maxlength="30" /></td>
+<td><input type="text" id="cls10B" name="cls10B" size="40" maxlength="30" /></td>
+<td><input type="text" id="cls10c" name="cls10c" size="40" maxlength="30" /></td>
+</tr>
+
+<tr>
+<td><label>2</label></td>
+<td><label>Class XII</label></td>
+<td><input type="text" id="cls12A"  size="40"  maxlength="30" /></td>
+<td><input type="text" id="cls12b"  size="40" maxlength="30" /></td>
+<td><input type="text" id="cls12c"  size="40" maxlength="30" /></td>
+</tr>
+
+<tr>
+<td><label>3</label></td>
+<td><label>Graduation</label></td>
+<td><input type="text" id="gra_a" size="40" maxlength="30" /></td>
+<td><input type="text" id="gra_b" size="40"  maxlength="30" /></td>
+<td><input type="text" id="gra_c" size="40"  maxlength="30" /></td>
+</tr>
+
+<tr>
+<td><label>4</label></td>
+<td><label>Master</label></td>
+<td><input type="text" id="mas_a" size="40"  maxlength="30" /></td>
+<td><input type="text" id="mas_b" size="40"  maxlength="30" /></td>
+<td><input type="text" id="mas_c" size="40"  maxlength="30" /></td>
+</tr>
+
+</table><br>
+<center><table cellpadding="2" cellspacing="2" width="10%" ></center>
+<button class="login"onclick="student()" id="sun"name="sun">Login</button> &nbsp
+<button class="Reset" id="moon" name="moon">Reset</button>
+</table>
+
+
+<!--<script src="D:\HTML\student_form.js"></script>-->
+<script src="student_form.js"></script>
+
+
+</body>
+</fieldset> 
+</html>
